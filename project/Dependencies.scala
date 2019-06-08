@@ -23,10 +23,15 @@ object Dependencies {
   val h2DatabaseDeps = Seq(
     "com.h2database" % "h2" % "1.4.199" % Test
   )
+
+  val catsDeps = Seq(
+    "org.typelevel" %% "cats-core" % catsVersion
+  )
 }
 
 object Versions {
 
   val akkaHttpVersion = "10.1.8"
   val akkaStreamsVersion = "2.5.19"
+  val catsVersion = "1.6.0"
 }
